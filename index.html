@@ -1,8 +1,23 @@
 <html>
 
 <body>
-    <h1>Hello Extensions Yo</h1>
-    <script src="popup.js"></script>
+    <div class="container">
+        <h2>Blocked!</h2>
+        <div class="input-group">
+            <label for="website">Website Name: </label>
+            <input type="text" id="website" name="website" placeholder="e.g. youtube.com" />
+        </div>
+
+        <div class="input-group">
+            <label for="message">Why are you blocking this?</label>
+            <input type="text" id="message" placeholder="Having a reson why helps us stay focused">
+        </div>
+
+        <button id="blockBtn">Add to Block List</button>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="popup.js"></script>
+    </div>
 </body>
 
 </html>

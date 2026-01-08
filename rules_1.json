@@ -10,7 +10,8 @@
             "resourceTypes": [
                 "main_frame",
                 "sub_frame",
-                "xmlhttprequest"
+                "xmlhttprequest",
+                "other"
             ]
         }
     }
