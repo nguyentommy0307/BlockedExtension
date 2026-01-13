@@ -4,6 +4,7 @@
     "version": "1.0",
     "permissions": [
         "declarativeNetRequest",
+        "storage",
         "declarativeNetRequestFeedback"
     ],
     "declarative_net_request": {
