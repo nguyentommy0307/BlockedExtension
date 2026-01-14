@@ -4,8 +4,7 @@
     "version": "1.0",
     "permissions": [
         "declarativeNetRequest",
-        "storage",
-        "declarativeNetRequestFeedback"
+        "storage"
     ],
     "declarative_net_request": {
         "rule_resources": [
