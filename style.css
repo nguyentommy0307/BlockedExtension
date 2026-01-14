@@ -61,3 +61,58 @@ input {
 #blockBtn:active {
     transform: scale(0.98);
 }
+
+.list-section {
+    margin-top: 25px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+h3 {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.blocked-item {
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-domain {
+    font-weight: bold;
+    font-size: 13px;
+    color: #333;
+}
+
+.item-reason {
+    font-size: 11px;
+    color: #888;
+}
+
+.unblock-btn {
+    background: none;
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.unblock-btn:hover {
+    background: #e74c3c;
+    color: white;
+}
